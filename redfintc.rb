@@ -27,7 +27,7 @@ class FoodTrucks
     return self.class.get(query).parsed_response
   end
 end
-# setting variables for pagination
+# setting variables to return ten items
   num = 0
   page = 1
   cont_to_next_page = true
