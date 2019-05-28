@@ -3,7 +3,7 @@ require 'httparty'
 require 'date'
 require 'terminal-table'
 
-# creating a class structure, setting what attributes of the class object  is readable, and the address the request is made to.
+# creating a class structure, setting which attributes of the class object are readable, and the address the request is made to.
 class FoodTrucks
   attr_reader :RESULTS_QTY, :FIELDS, :HOUR_STRING, :MINUTE_STRING, :WEEK_DAY, :CTIME , :TIME_OF_QUERY, :query
   include HTTParty
